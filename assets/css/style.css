@@ -1,0 +1,28 @@
+* {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    text-align: center;
+}
+
+#game-board {
+    margin: 0 auto;
+    display: inline-grid;
+    height: 600px;
+    width: 600px;
+    background-color: black;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.button {
+    border: 0px;
+    background-color: white;
+    font-size: 150px;
+    text-align: center;
+}
