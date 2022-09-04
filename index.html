@@ -7,21 +7,29 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Tic-tac-toe</title>
     <script src="https://kit.fontawesome.com/8b173dddba.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+    </style> 
 </head>
 <body>
-    <section>
-        <div id="game-board">
-            <button class="button" data-position="top-left"></button>
-            <button class="button" data-position="top-center"></button>
-            <button class="button" data-position="top-right"></button>
-            <button class="button" data-position="middle-left"></button>
-            <button class="button" data-position="middle-center"></button>
-            <button class="button" data-position="middle-right"></button>
-            <button class="button" data-position="bottom-left"></button>
-            <button class="button" data-position="bottom-center"></button>
-            <button class="button" data-position="bottom-right"></button>
-        </div>
-    </section>
+    <header>
+        <h1>Tic-tac-toe</h1>
+    </header>
+    <div id="game-board">
+        <button class="button" data-position="top-left"></button>
+        <button class="button" data-position="top-center"></button>
+        <button class="button" data-position="top-right"></button>
+        <button class="button" data-position="middle-left"></button>
+        <button class="button" data-position="middle-center"></button>
+        <button class="button" data-position="middle-right"></button>
+        <button class="button" data-position="bottom-left"></button>
+        <button class="button" data-position="bottom-center"></button>
+        <button class="button" data-position="bottom-right"></button>
+    </div>
+    <div class="scoreboard">
+        <p>Wins:<span id="wins">0</span></p><p>Losses:<span id="losses">0</span></p><p>Draws:<span id="draws">0</span></p>
+    </div>
+    <!-- <footer>Footer</footer> -->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
