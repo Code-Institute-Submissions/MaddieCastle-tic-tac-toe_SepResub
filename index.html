@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Tic-tac-toe</title>
-    <script src="https://kit.fontawesome.com/8b173dddba.js" crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
     </style> 
@@ -15,25 +14,29 @@
     <header>
         <h1>Tic-tac-toe</h1>
     </header>
+
+    <!-- Tic-tac-toe board -->
     <div id="game-board">
-        <button class="button" data-position="top-left"></button>
-        <button class="button" data-position="top-center"></button>
-        <button class="button" data-position="top-right"></button>
-        <button class="button" data-position="middle-left"></button>
-        <button class="button" data-position="middle-center"></button>
-        <button class="button" data-position="middle-right"></button>
-        <button class="button" data-position="bottom-left"></button>
-        <button class="button" data-position="bottom-center"></button>
-        <button class="button" data-position="bottom-right"></button>
+        <button class="top left"></button>
+        <button class="top center"></button>
+        <button class="top right"></button>
+        <button class="middle left"></button>
+        <button class="middle center"></button>
+        <button class="middle right"></button>
+        <button class="bottom left"></button>
+        <button class="bottom center"></button>
+        <button class="bottom right"></button>
     </div>
+
+    <!-- Win/loss/draw counters -->
     <div class="scoreboard">
         <p>Wins:<span id="wins">0</span></p><p>Losses:<span id="losses">0</span></p><p>Draws:<span id="draws">0</span></p>
     </div>
-    <!-- <footer>Footer</footer> -->
+
+    <!-- Reset button -->
+    <div>
+        <button id="reset">Reset</button>
+    </div>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
-
-
-<!-- <i class="fa-solid fa-xmark"></i> -->
-<!-- <i class="fa-solid fa-o"></i> -->
