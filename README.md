@@ -1,6 +1,6 @@
 # Tic-tac-toe
 This is a site aimed at allowing a user to play tic-tac-toe and track their wins, losses, and draws against a computer opponent. This will be useful for anyone wanting to play the game or practice and improve by tracking their progress.
-[Site on different screen sizes](assets/images/responsive.jpg)
+![Site on different screen sizes](assets/images/responsive.jpg)
 
 ## Features
 - ### Game board
