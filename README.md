@@ -16,7 +16,7 @@ This is a site aimed at allowing a user to play tic-tac-toe and track their wins
 
 - ### Reset Button
     - The Reset button allows the user to reset the board manually, allowing them to restart the current game if they choose to do so. This aids the user by letting them restart if they make a mistake.
-![Reset Button screenshot](assets/images/resetbutton)
+![Reset Button screenshot](assets/images/resetButton.jpg)
 
 ## Future Features
 - Radio buttons allowing the user to choose to play as "X" or "O".
@@ -37,11 +37,11 @@ This is a site aimed at allowing a user to play tic-tac-toe and track their wins
 ## Deployment
 - Github pages was used to deploy the site live, via the settings tab of the GitHub repository.
 - Then choosing the root option under the Branch subheading.
--This resulted in a live site [here.](https://maddiecastle.github.io/tic-tac-toe/)
+- This resulted in a live site [here.](https://maddiecastle.github.io/tic-tac-toe/)
 
 ## Credits
 ### Contents
 - All contents were created by the developer.
 
 ### Fonts
-- The font used was from google fonts [here](https://fonts.google.com/specimen/Work+Sans?hl=ru)
+- The font used was from google fonts [here.](https://fonts.google.com/specimen/Work+Sans?hl=ru)
